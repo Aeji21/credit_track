@@ -1,0 +1,40 @@
+name: credittrack
+description: A student-friendly personal finance and credit tracking app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  fl_chart: ^0.68.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add Google Fonts as assets (download .ttf files into assets/fonts/)
+  # OR use the google_fonts package instead:
+  # google_fonts: ^6.1.0
+  #
+  # If using local fonts, uncomment below and add the .ttf files:
+  # fonts:
+  #   - family: Syne
+  #     fonts:
+  #       - asset: assets/fonts/Syne-Regular.ttf
+  #       - asset: assets/fonts/Syne-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Syne-ExtraBold.ttf
+  #         weight: 800
+  #   - family: DMSans
+  #     fonts:
+  #       - asset: assets/fonts/DMSans-Regular.ttf
+  #       - asset: assets/fonts/DMSans-Medium.ttf
+  #         weight: 500
